@@ -27,7 +27,20 @@
 	<ul>
 		<li><a href="./form/servletRequest?id=kosmo&pw=1234" target="_blank">
 		HttpServletRequest로 폼 값 받기</a></li>
+		
+		<li><a href="./form/requestParam.do?id=kosmo&pw=1234&name=박국희&email=cookie@naver.com" target="_blank">
+		@reausetParam어노테이션으로 폼 값 받기</a></li>
+		
+		<li><a href="./form/commandObjGet.do?id=kosmo&pw=1234&name=박국희&email=cookie@naver.com" target="_blank">
+		커맨드(Command)객체로 한번에 폼 값 받기</a></li>
+		
+		<li><a href="./form/gildong99/코스모" target="_blank">
+		pathVariable어노테이션으로 폼 값 받기</a></li>
 	</ul>
+	
+	<h3>@RequestMapping 어노테이션 활용</h3>
+	<li><a href="./requestMapping/index.do" target="_blank">
+		requestMapping시작페이지 바로가기</a></li>
 </div>
 </body>
 </html>
